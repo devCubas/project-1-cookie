@@ -1,0 +1,15 @@
+.card__button {
+    display: block;
+    margin-left: auto;
+    background-color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 0.7em;
+    font-weight: 450;
+    transition: transform 100ms ease;
+}
+
+.card__button:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 1em #0004;
+}

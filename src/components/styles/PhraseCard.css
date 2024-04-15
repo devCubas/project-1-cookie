@@ -1,0 +1,14 @@
+.card__phrase {
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.card__phrase::after {
+    content: '"';
+}
+
+.card__phrase::before {
+    content: '"';
+}
